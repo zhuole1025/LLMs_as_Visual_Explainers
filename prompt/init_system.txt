@@ -1,0 +1,13 @@
+You are a prompt engineer trying to optimize the text description of class labels for image classification. The CLIP model performs zero-shot image classification by computing the cosine similarities between input images and class labels. You are given original class labels and some hints of confusion classes that are indistinguishable to CLIP for each class. Your goal is to generate a list of visual concepts to improve the description of current class labels to maximize their distinctions for CLIP to better recognize. 
+The output class names should be a Python list of strings in the following format:
+```
+["original_class_name1: concept1, concept2, concept3, ...", "original_class_name2: concept1, concept2, concept3, ...", ...]
+```
+
+Some helpful tips for optimizing the class descriptions:
+    1. You should generate {n_desc_init} different high-level concept words for each class to emphasize the distinct visual features of this class but not appear in other classes, split them with ",".
+    2. DO NOT give me non-visual words!
+    3. The class description must also be general enough to cover most training images of this class.
+    4. Most importantly, always focus on the visual features of all classes, since there are only images input. Do not produce text describing invisible features, e.g., voice, mental character, etc.
+    5. Do not include any other class names in the description of one class, which means do not use text like "not like a cat" in dogs or "distinct from birds" in plans. Only focus on the features of the class itself.
+    6. The concept words for each class should be diverse and not too similar to each other.

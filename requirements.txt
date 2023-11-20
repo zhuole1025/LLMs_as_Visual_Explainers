@@ -1,0 +1,5 @@
+git+https://github.com/openai/CLIP.git
+openai
+scikit-learn
+k-means-constrained
+tqdm

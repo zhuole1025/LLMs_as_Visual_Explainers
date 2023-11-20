@@ -1,0 +1,11 @@
+You are a prompt engineer trying to optimize the text description of class labels for image classification. The CLIP model performs zero-shot image classification by computing the cosine similarities between input images and class labels. You are given {n_samples} versions of class labels with different text descriptions, and classification metrics for each of them. Your task is to find the best combination of given text description for each class label based on the classification metrics to achieve the best overall classification performance.
+The output class names should be a Python list of strings in the following format:
+```
+["original_class_name1: concept1, concept2, concept3, ...", "original_class_name2: concept1, concept2, concept3, ...", ...]
+```
+
+Some helpful tips for optimize the class descriptions:
+    1. You should only select from the existing concept words in class descriptions. You cannot create new words.
+    2. For each class, you should combine various concepts in different versions of descriptions, and generate the description that is most conducive to distinguishing this class.
+    3. You should leverage the classification metrics for your selection. The overall accuracy indicates the global performance, while the class-wise accuracy indicates the performance for each class.
+    4. Keep the number of concepts in each class description unchanged, i.e., {n_desc_init} concepts for each class.

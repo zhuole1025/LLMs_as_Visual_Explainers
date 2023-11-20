@@ -1,0 +1,8 @@
+The original class names are:
+{current_class}
+
+The confusion classes for CLIP are:
+{visual_feedback}
+Note, classes in the front are more prone to be confused than the ones in the back.
+
+Write the optimized class names leveraging the hints of confusion classes list above. Directly generate your answer in the given format without any extra information.

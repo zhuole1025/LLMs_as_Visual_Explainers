@@ -1,0 +1,97 @@
+{
+    "airplane": [
+        "metal body",
+        "wings with ailerons",
+        "tail section with vertical and horizontal stabilizers",
+        "landing gear",
+        "engines",
+        "propellers",
+        "cockpit with windows ",
+        "fuselage with passenger cabin windows ",
+        "tail fin with airline logo"
+    ],
+    "automobile": [
+        "metal exterior",
+        "headlights and taillights",
+        "windshield and windows",
+        "doors",
+        "wheels",
+        "grill",
+        "exhaust pipes",
+        "bumper",
+        "hood",
+        "trunk"
+    ],
+    "bird": [
+        "wings",
+        "two legs",
+        "hooked beak",
+        "two eyes",
+        "brightly colored feathers",
+        "clawed feet",
+        "tail feathers"
+    ],
+    "cat": [
+        "fur covered bodies",
+        "round head with ears and whiskers",
+        "almond-shaped eyes",
+        "slim body with short legs",
+        "long tail",
+        "rounded paws"
+    ],
+    "deer": [
+        "brown, tan, or white fur",
+        "pointed ears",
+        "long neck",
+        "short tail",
+        "large eyes",
+        "antlers on males ",
+        "hooves"
+    ],
+    "dog": [
+        "muzzle",
+        "floppy ears",
+        "pointed nose",
+        "furry coat",
+        "short or long tail",
+        "webbed feet",
+        "wide eyes"
+    ],
+    "frog": [
+        "green, brown, or black skin",
+        "long hind legs",
+        "webbed toes",
+        "webbed flaps on the sides of its body",
+        "bulging eyes with vertical pupils",
+        "bulbous vocal sac on its throat",
+        "flattened body shape"
+    ],
+    "horse": [
+        "long mane and tail",
+        "muscular body",
+        "large eyes",
+        "long head with a muzzle",
+        "hooves",
+        "ears that point forward"
+    ],
+    "ship": [
+        "Large vessel",
+        "Hull with sharp bow and stern",
+        "Masts and sails",
+        "Rigging",
+        "Steering wheel",
+        "Deck and cabins",
+        "Lifeboats",
+        "Smokestacks"
+    ],
+    "truck": [
+        "four-wheeled",
+        "metal body",
+        "two or more doors",
+        "front cab with driver's seat",
+        "cargo bed at the back",
+        "spare tire mounted on the back",
+        "multiple windows",
+        "a grille at the front"
+    ]
+}

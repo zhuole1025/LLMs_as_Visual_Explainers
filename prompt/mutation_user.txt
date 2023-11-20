@@ -1,0 +1,14 @@
+The current class names are:
+{current_class}
+
+The confusion classes for CLIP are:
+{visual_feedback}
+Note, classes in the front are more prone to be confused than the ones in the back.
+
+History list class descriptions that will improve classification accuracy are:
+{positive_list}
+
+History list records for class descriptions that will decrease classification accuracy are:
+{negative_list}
+
+Write the optimized class names leveraging the hints of confusion classes and two lists above. Directly generate your answer in the given format without any extra information.

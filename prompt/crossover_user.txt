@@ -1,0 +1,4 @@
+The {n_samples} versions of class descriptions and corresponding classification metrics are:
+{class_samples}
+
+Output the optimized class descriptions according to the classification metrics above. Directly generate your answer in the given format without any extra information.
