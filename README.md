@@ -46,3 +46,12 @@ python eval.py --img_dir data/eurosat --label_dir result/Ours/eurosat_sota.txt
 To reproduce the results in the paper (including baselines), you can run the commands in the `replicate_key_results.sh` file. 
 
 ## Citation
+
+```
+@article{han2023llms,
+  title={LLMs as Visual Explainers: Advancing Image Classification with Evolving Visual Descriptions},
+  author={Han, Songhao and Zhuo, Le and Liao, Yue and Liu, Si},
+  journal={arXiv preprint arXiv:2311.11904},
+  year={2023}
+}
+```
