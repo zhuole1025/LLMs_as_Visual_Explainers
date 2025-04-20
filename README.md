@@ -1,7 +1,7 @@
 # LLMs as Visual Explainers: Advancing Image Classification with Evolving Visual Descriptions
 
 ## Overview
-This repository contains code to replicate key experiments from our paper [LLMs as Visual Explainers: Advancing Image Classification with Evolving Visual Descriptions]().
+This repository contains code to replicate key experiments from our paper [LLMs as Visual Explainers: Advancing Image Classification with Evolving Visual Descriptions](https://arxiv.org/abs/2311.11904).
 
 ## Installation
 
